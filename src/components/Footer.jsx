@@ -49,10 +49,10 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="#">
+              <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-youtube" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="#">
+              <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
@@ -131,7 +131,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               ©{" "}
-              <a className="border-bottom" href="#">
+              <a className="border-bottom" href="/">
                Urbania se Chalo
               </a>
               , All Right Reserved.
