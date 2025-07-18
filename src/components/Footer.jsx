@@ -15,16 +15,16 @@ export default function Footer() {
             <a className="btn btn-link" href="/">
               About Us
             </a>
-            <a className="btn btn-link" href="/Contact">
+            <a className="btn btn-link" href="/">
               Contact Us
             </a>
-            <a className="btn btn-link" href="/Privacy">
+            <a className="btn btn-link" href="/">
               Privacy Policy
             </a>
-            <a className="btn btn-link" href="/Terms">
+            <a className="btn btn-link" href="/">
               Terms &amp; Condition
             </a>
-            <a className="btn btn-link" href="/FAQs">
+            <a className="btn btn-link" href="/">
               FAQs &amp; Help
             </a>
           </div>
@@ -49,10 +49,10 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="">
+              <a className="btn btn-outline-light btn-social" href="#">
                 <i className="fab fa-youtube" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="">
+              <a className="btn btn-outline-light btn-social" href="#">
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
@@ -132,7 +132,7 @@ export default function Footer() {
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               ©{" "}
               <a className="border-bottom" href="#">
-                Your Site Name
+               Urbania se Chalo
               </a>
               , All Right Reserved.
               Designed By{" "}
