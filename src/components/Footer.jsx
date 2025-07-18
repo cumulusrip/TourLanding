@@ -15,16 +15,16 @@ export default function Footer() {
             <a className="btn btn-link" href="/">
               About Us
             </a>
-            <a className="btn btn-link" href="/">
+            <a className="btn btn-link" href="/Contact">
               Contact Us
             </a>
-            <a className="btn btn-link" href="/">
+            <a className="btn btn-link" href="/Privacy">
               Privacy Policy
             </a>
-            <a className="btn btn-link" href="/">
+            <a className="btn btn-link" href="/Terms">
               Terms &amp; Condition
             </a>
-            <a className="btn btn-link" href="/">
+            <a className="btn btn-link" href="/FAQs">
               FAQs &amp; Help
             </a>
           </div>
