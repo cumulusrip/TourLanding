@@ -32,29 +32,29 @@ export default function Footer() {
             <h4 className="text-white mb-3">Contact</h4>
             <p className="mb-2">
               <i className="fa fa-map-marker-alt me-3" />
-              123 Street, New York, USA
+            Plot No.2 Daria Near Railway Station Chandigarh
             </p>
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
-              +012 345 67890
+              +919888-476-943
             </p>
             <p className="mb-2">
               <i className="fa fa-envelope me-3" />
-              info@example.com
+              urbaniasechalo@gmail.com
             </p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href="/">
-                <i className="fab fa-twitter" />
+              <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/share/1XQdB4ZYry/">
+                <i className="fab fa-facebook" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="/">
-                <i className="fab fa-facebook-f" />
+              <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3">
+                <i className="fab fa-instagram" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="/">
-                <i className="fab fa-youtube" />
+              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919888476943">
+                <i className="fab fa-whatsapp" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="/">
+              {/* <a className="btn btn-outline-light btn-social" href="/">
                 <i className="fab fa-linkedin-in" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -106,7 +106,7 @@ export default function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="text-white mb-3">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>Got a question? Don't hesitate we are here to help</p>
             <div
               className="position-relative mx-auto"
               style={{ maxWidth: 400 }}
@@ -120,7 +120,7 @@ export default function Footer() {
                 type="button"
                 className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
-                SignUp
+                Email
               </button>
             </div>
           </div>
@@ -132,12 +132,12 @@ export default function Footer() {
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               ©{" "}
               <a className="border-bottom" href="/">
-               Urbania se Chalo
+               2025
               </a>
               , All Right Reserved.
               Designed By{" "}
               <a className="border-bottom" href="https://github.com/ParasSalunke">
-                Paras Salunke
+              Urbani se Chalo
               </a>
             </div>
             <div className="col-md-6 text-center text-md-end">

@@ -29,7 +29,7 @@ function Header() {
           >
             <small className="me-3 text-light">
               <i className="fa fa-map-marker-alt me-2" />
-              123 Street, New York, USA
+              Plot No.2 Daria Near Railway Station Chandigarh
             </small>
             <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
@@ -46,36 +46,36 @@ function Header() {
             className="d-inline-flex align-items-center"
             style={{ height: 45 }}
           >
-            <a
+            {/* <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
               to=""
             >
               <i className="fab fa-twitter fw-normal" />
-            </a>
+            </a> */}
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to=""
+              to="https://www.facebook.com/share/1XQdB4ZYry/"
             >
               <i className="fab fa-facebook-f fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to=""
+              to="https://wa.me/+919888476943"
             >
-              <i className="fab fa-linkedin-in fw-normal" />
+              <i className="fab fa-whatsapp fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to=""
+              to="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3"
             >
               <i className="fab fa-instagram fw-normal" />
             </a>
-            <a
+            {/* <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
               to=""
             >
               <i className="fab fa-youtube fw-normal" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -114,13 +114,13 @@ function Header() {
               Packages
             </Link>
             <div className="nav-item dropdown">
-              <Link
+              {/* <Link
                 to="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Pages
-              </Link>
+              </Link> */}
               <div className="dropdown-menu m-0">
                 <Link to="/Destination" className="dropdown-item">
                   Destination
@@ -143,9 +143,9 @@ function Header() {
               Contact
             </Link>
           </div>
-          <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
+          {/* <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
             Register
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </div>

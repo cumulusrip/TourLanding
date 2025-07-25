@@ -1,9 +1,10 @@
 import React from 'react'
+import video from '../assets/video/bg-video1.mp4'
 
 export default function Home() {
   return (
     <div>
-      <div className="container-fluid bg-primary py-5 mb-5 hero-header">
+      {/* <div className="container-fluid bg-primary py-5 mb-5 hero-header">
         <div className="container py-5">
           <div className="row justify-content-center py-5">
             <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -14,7 +15,7 @@ export default function Home() {
                 Tempor erat elitr rebum at clita diam amet diam et eos erat
                 ipsum lorem sit
               </p>
-              {/* <div className="position-relative w-75 mx-auto animated slideInDown">
+               <div className="position-relative w-75 mx-auto animated slideInDown">
                 <input
                   className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
                   type="text"
@@ -27,11 +28,33 @@ export default function Home() {
                 >
                   Search
                 </button>
-              </div> */}
+              </div> *
             </div>
           </div>
         </div>
+      </div> */}
+<div className="container-fluid bg-primary py-5 mb-5 hero-header">
+  <video autoPlay loop muted playsInline>
+    <source src={video} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div className="container py-5">
+    <div className="row justify-content-center py-5">
+      <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+        <h1 className="display-3 text-white mb-3 animated slideInDown">
+          Enjoy Your Vacation With Us
+        </h1>
+        <p className="fs-4 text-white mb-4 animated slideInDown">
+          Experience luxury, comfort, and unforgettable memories  because every journey deserves a perfect ride.
+        </p>
+        {/* Optional search form */}
       </div>
+    </div>
+  </div>
+</div>
+
+
             {/* About Start */}
     <div className="container-xxl py-5">
       <div className="container">
@@ -55,16 +78,18 @@ export default function Home() {
               About Us
             </h6>
             <h1 className="mb-4">
-              Welcome to <span className="text-primary">Tourist</span>
+              Welcome to <span className="text-primary">Urbania se chalo</span>
             </h1>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit.
+            Welcome to Urbania Se Chalo
+At Urbania Se Chalo, we redefine travel with comfort, safety, and style. Whether you're heading out for a family trip, a romantic getaway, 
+or a group adventure  we make sure your journey is as memorable as your destination.
             </p>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              With a fleet of latest-model vehicles and a promise of personalized experiences, we bring you the best of premium travel across cities.
+
+Trust us for smooth rides, curated experiences, and unmatched service 
+because Urbania Se Chalo matlab Comfort Se Chalo!
             </p>
             <div className="row gy-2 gx-4 mb-4">
               <div className="col-sm-6">
@@ -76,13 +101,13 @@ export default function Home() {
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  Handpicked Hotels
+                  Curated Stay Options
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />5 Star
-                  Accommodations
+                  5-Star Level Comfort
                 </p>
               </div>
               <div className="col-sm-6">

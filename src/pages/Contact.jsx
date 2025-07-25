@@ -52,7 +52,7 @@ function Contact() {
               </div>
               <div className="ms-3">
                 <h5 className="text-primary">Office</h5>
-                <p className="mb-0">123 Street, New York, USA</p>
+                <p className="mb-0">Plot No.2 Daria Near Railway Station Chandigarh</p>
               </div>
             </div>
             <div className="d-flex align-items-center mb-4">
