@@ -32,7 +32,7 @@ export default function Footer() {
             <h4 className="text-white mb-3">Contact</h4>
             <p className="mb-2">
               <i className="fa fa-map-marker-alt me-3" />
-            Plot No.2 Daria Near Railway Station Chandigarh
+            Plot No.2 Daria Near Railway Station  Chandigarh
             </p>
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
@@ -60,45 +60,27 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6">
             <h4 className="text-white mb-3">Gallery</h4>
             <div className="row g-2 pt-2">
+            
               <div className="col-4">
                 <img
                   className="img-fluid bg-light p-1"
-                  src="assets/img/package-1.jpg"
+                  src="assets/img/444.jpeg"
                   alt=""
                 />
               </div>
+        
               <div className="col-4">
                 <img
                   className="img-fluid bg-light p-1"
-                  src="assets/img/package-2.jpg"
+                  src="assets/img/22.jpeg"
                   alt=""
                 />
               </div>
+            
               <div className="col-4">
                 <img
                   className="img-fluid bg-light p-1"
-                  src="assets/img/package-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="col-4">
-                <img
-                  className="img-fluid bg-light p-1"
-                  src="assets/img/package-2.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="col-4">
-                <img
-                  className="img-fluid bg-light p-1"
-                  src="assets/img/package-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="col-4">
-                <img
-                  className="img-fluid bg-light p-1"
-                  src="assets/img/package-1.jpg"
+                  src="assets/img/55.jpeg"
                   alt=""
                 />
               </div>
@@ -106,7 +88,7 @@ export default function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="text-white mb-3">Newsletter</h4>
-            <p>Got a question? Don't hesitate we are here to help</p>
+            <p>Stay Updated with Urbania Se Chalo Get the latest travel offers, vehicle availability, and tour packages directly in your inbox.</p>
             <div
               className="position-relative mx-auto"
               style={{ maxWidth: 400 }}

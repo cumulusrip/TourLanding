@@ -43,10 +43,10 @@ export default function Home() {
     <div className="row justify-content-center py-5">
       <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
         <h1 className="display-3 text-white mb-3 animated slideInDown">
-          Enjoy Your Vacation With Us
+          Make Every Vacation Comfortable With Us
         </h1>
         <p className="fs-4 text-white mb-4 animated slideInDown">
-          Experience luxury, comfort, and unforgettable memories  because every journey deserves a perfect ride.
+We give you clean, safe, and smooth rides. Enjoy every journey with full comfort.
         </p>
         {/* Optional search form */}
       </div>
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="position-relative h-100">
               <img
                 className="img-fluid position-absolute w-100 h-100"
-                src="assets/img/about.jpg"
+                src="assets/img/about.jpeg"
                 alt=""
                 style={{ objectFit: "cover" }}
               />
@@ -82,50 +82,50 @@ export default function Home() {
             </h1>
             <p className="mb-4">
             Welcome to Urbania Se Chalo
-At Urbania Se Chalo, we redefine travel with comfort, safety, and style. Whether you're heading out for a family trip, a romantic getaway, 
-or a group adventure  we make sure your journey is as memorable as your destination.
+At Urbania Se Chalo, we make your travel safe, easy, and comfortable. Whether it’s a family trip, couple’s ride, or group travel – we take care of everything to make your journey stress-free and special.
+
             </p>
             <p className="mb-4">
-              With a fleet of latest-model vehicles and a promise of personalized experiences, we bring you the best of premium travel across cities.
+              We use the latest model Urbania vans and provide top-class service for all your travel needs. Our goal is simple – to give you a smooth ride and a great travel experience.
+Because <span class="fw-bold text-dark">Urbania Se Chalo matlab Comfort Se Chalo!</span>
 
-Trust us for smooth rides, curated experiences, and unmatched service 
-because Urbania Se Chalo matlab Comfort Se Chalo!
+
             </p>
             <div className="row gy-2 gx-4 mb-4">
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  First Class Flights
+                  2 to 5-Star Hotels & Resorts (on request)
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  Curated Stay Options
+                  5-Star Level Comfort & Spacious Seating
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />5 Star
-                  5-Star Level Comfort
+                  Force Urbania, Tempo Travellers & Innova Crysta
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  Latest Model Vehicles
+                  North India Tours – All Major Cities & Hill Stations
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  150 Premium City Tours
+                  Top Models with Full Safety Features
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  24/7 Service
+                  4x7 Booking & Customer Support
                 </p>
               </div>
             </div>
@@ -138,7 +138,7 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
     </div>
     {/* About End */}
     {/* Service Start */}
-    <div className="container-xxl py-5">
+    {/* <div className="container-xxl py-5">
       <div className="container">
         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 className="section-title bg-white text-center text-primary px-3">
@@ -245,7 +245,7 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* Service End */}
     {/* Destination Start */}
     <div className="container-xxl py-5 destination">
@@ -269,14 +269,14 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
                 >
                   <img
                     className="img-fluid"
-                    src="assets/img/destination-1.jpg"
+                    src="assets/img/11.jpeg"
                     alt=""
                   />
-                  <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
+                  {/* <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                     30% OFF
-                  </div>
+                  </div> */}
                   <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                    Thailand
+                    Manali
                   </div>
                 </a>
               </div>
@@ -290,14 +290,14 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
                 >
                   <img
                     className="img-fluid"
-                    src="assets/img/destination-2.jpg"
+                    src="assets/img/55.jpeg"
                     alt=""
                   />
-                  <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
+                  {/* <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                     25% OFF
-                  </div>
+                  </div> */}
                   <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                    Malaysia
+                    Dalhousie
                   </div>
                 </a>
               </div>
@@ -311,14 +311,14 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
                 >
                   <img
                     className="img-fluid"
-                    src="assets/img/destination-3.jpg"
+                    src="assets/img/22.jpeg"
                     alt=""
                   />
-                  <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
+                  {/* <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                     35% OFF
-                  </div>
+                  </div> */}
                   <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                    Australia
+                    Jibhi, Tirthan Valley
                   </div>
                 </a>
               </div>
@@ -335,15 +335,15 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
             >
               <img
                 className="img-fluid position-absolute w-100 h-100"
-                src="assets/img/destination-4.jpg"
+                src="assets/img/44.jpeg"
                 alt=""
                 style={{ objectFit: "cover" }}
               />
-              <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
+              {/* <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                 20% OFF
-              </div>
+              </div> */}
               <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                Indonesia
+                Shimla
               </div>
             </a>
           </div>
@@ -362,6 +362,790 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
         </div>
         <div className="row g-4 justify-content-center">
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="package-item">
+              <div className="overflow-hidden">
+                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+              </div>
+              <div className="d-flex border-bottom">
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-map-marker-alt text-primary me-2" />
+                  Thailand
+                </small>
+                <small className="flex-fill text-center border-end py-2">
+                  <i className="fa fa-calendar-alt text-primary me-2" />3 days
+                </small>
+                <small className="flex-fill text-center py-2">
+                  <i className="fa fa-user text-primary me-2" />2 Person
+                </small>
+              </div>
+              <div className="text-center p-4">
+                <h3 className="mb-0">$149.00</h3>
+                <div className="mb-3">
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                  <small className="fa fa-star text-primary" />
+                </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                  diam amet diam eos
+                </p>
+                <div className="d-flex justify-content-center mb-2">
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3 border-end"
+                    style={{ borderRadius: "30px 0 0 30px" }}
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href="#"
+                    className="btn btn-sm btn-primary px-3"
+                    style={{ borderRadius: "0 30px 30px 0" }}
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="package-item">
               <div className="overflow-hidden">
                 <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
@@ -513,6 +1297,80 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
     </div>
     {/* Package End */}
     {/* Booking Start */}
+    
+    {/* Booking Start */}
+    {/* Process Start */}
+    <div className="container-xxl py-5">
+      <div className="container">
+        <div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+          <h6 className="section-title bg-white text-center text-primary px-3">
+            Process
+          </h6>
+          <h1 className="mb-5">3 Easy Steps</h1>
+        </div>
+        <div className="row gy-5 gx-4 justify-content-center">
+          <div
+            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div className="position-relative border border-primary pt-5 pb-4 px-4">
+              <div
+                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                style={{ width: 100, height: 100 }}
+              >
+                <i className="fa fa-globe fa-3x text-white" />
+              </div>
+              <h5 className="mt-4">Choose A Destination</h5>
+              <hr className="w-25 mx-auto bg-primary mb-1" />
+              <hr className="w-50 mx-auto bg-primary mt-0" />
+              <p className="mb-0">
+                Tell us where you want to go – local, outstation, hill station, or group tour.
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div className="position-relative border border-primary pt-5 pb-4 px-4">
+              <div
+                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                style={{ width: 100, height: 100 }}
+              >
+                <i className="fa fa-dollar-sign fa-3x text-white" />
+              </div>
+              <h5 className="mt-4">Contact us for Booking</h5>
+              <hr className="w-25 mx-auto bg-primary mb-1" />
+              <hr className="w-50 mx-auto bg-primary mt-0" />
+              <p className="mb-0">
+Call or message us to check availability, vehicle type, and confirm booking.
+
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div className="position-relative border border-primary pt-5 pb-4 px-4">
+              <div
+                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                style={{ width: 100, height: 100 }}
+              >
+                <i className="fa fa-plane fa-3x text-white" />
+              </div>
+              <h5 className="mt-4">Enjoy your Ride</h5>
+              <hr className="w-25 mx-auto bg-primary mb-1" />
+              <hr className="w-50 mx-auto bg-primary mt-0" />
+              <p className="mb-0">
+               We pick you up on time with a clean, GPS-enabled vehicle and a polite driver.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div className="container">
         <div className="booking p-5">
@@ -616,83 +1474,9 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
         </div>
       </div>
     </div>
-    {/* Booking Start */}
-    {/* Process Start */}
-    <div className="container-xxl py-5">
-      <div className="container">
-        <div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-          <h6 className="section-title bg-white text-center text-primary px-3">
-            Process
-          </h6>
-          <h1 className="mb-5">3 Easy Steps</h1>
-        </div>
-        <div className="row gy-5 gx-4 justify-content-center">
-          <div
-            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="position-relative border border-primary pt-5 pb-4 px-4">
-              <div
-                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                style={{ width: 100, height: 100 }}
-              >
-                <i className="fa fa-globe fa-3x text-white" />
-              </div>
-              <h5 className="mt-4">Choose A Destination</h5>
-              <hr className="w-25 mx-auto bg-primary mb-1" />
-              <hr className="w-50 mx-auto bg-primary mt-0" />
-              <p className="mb-0">
-                Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-                diam eos erat ipsum et lorem et sit sed stet lorem sit
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
-            <div className="position-relative border border-primary pt-5 pb-4 px-4">
-              <div
-                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                style={{ width: 100, height: 100 }}
-              >
-                <i className="fa fa-dollar-sign fa-3x text-white" />
-              </div>
-              <h5 className="mt-4">Pay Online</h5>
-              <hr className="w-25 mx-auto bg-primary mb-1" />
-              <hr className="w-50 mx-auto bg-primary mt-0" />
-              <p className="mb-0">
-                Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-                diam eos erat ipsum et lorem et sit sed stet lorem sit
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
-            <div className="position-relative border border-primary pt-5 pb-4 px-4">
-              <div
-                className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
-                style={{ width: 100, height: 100 }}
-              >
-                <i className="fa fa-plane fa-3x text-white" />
-              </div>
-              <h5 className="mt-4">Fly Today</h5>
-              <hr className="w-25 mx-auto bg-primary mb-1" />
-              <hr className="w-50 mx-auto bg-primary mt-0" />
-              <p className="mb-0">
-                Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-                diam eos erat ipsum et lorem et sit sed stet lorem sit
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     {/* Process Start */}
     {/* Team Start */}
-    <div className="container-xxl py-5">
+    {/* <div className="container-xxl py-5">
       <div className="container">
         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 className="section-title bg-white text-center text-primary px-3">
@@ -803,10 +1587,10 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* Team End */}
     {/* Testimonial Start */}
-    <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    {/* <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div className="container">
         <div className="text-center">
           <h6 className="section-title bg-white text-center text-primary px-3">
@@ -869,7 +1653,7 @@ because Urbania Se Chalo matlab Comfort Se Chalo!
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* Testimonial End */}  
     </div>
   )
