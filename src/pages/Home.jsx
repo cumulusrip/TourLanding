@@ -18,7 +18,7 @@ const packages = [
   },
   {
     id: 2,
-    image: "assets/img/dharamshala.jpeg",
+    image: "assets/img/99.jpeg",
     location: "Dalhousie - Dharamshala",
     days: "3N/4D",
     persons: "1 Person",
@@ -29,7 +29,7 @@ const packages = [
   },
    {
     id: 3,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/kasol.jpeg",
     location: "Shimla - Manali - Kasol",
     days: "4N/5D",
     persons: "2 Person",
@@ -40,7 +40,7 @@ const packages = [
   },
   {
     id: 4,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/Prashar.jpeg",
     location: "Jibhi - Jalori Pass - Parashar Lake",
     days: "4N/5D",
     persons: "1 Person",
@@ -51,7 +51,7 @@ const packages = [
   },
     {
     id: 5,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/kasol2.jpeg",
     location: "Shimla - Manali - Kasol",
     days: "5N/6D",
     persons: "2 Person",
@@ -62,7 +62,7 @@ const packages = [
   },
    {
     id: 7,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/narkanda1.jpeg",
     location: "Kufri - Narkanda - Jibhi - Kasol      ",
     days: "5N/6D",
     persons: "2 Person",
@@ -73,7 +73,7 @@ const packages = [
   },
   {
     id: 6,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/baralacha.com",
     location: "Dalhousie - Dharamshala",
     days: "6N/7D",
     persons: "1 Person",
@@ -85,7 +85,7 @@ const packages = [
   
     {
     id: 8,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/kkalpa.jpeg",
     location: "Shimla - Narkanda - Sangla - Kalpa - Sarahan - Shimla",
     days: "6N/7D",
     persons: "1 Person",
@@ -98,7 +98,7 @@ const packages = [
 
     {
     id: 9,
-    image: "assets/img/package-3.jpg",
+    image: "assets/img/_ (4).jpeg",
     location: "Shimla - Manali - Dharamshala - Dalhousie - Amritsar",
     days: "9N/10D",
     persons: "2 Person",
@@ -850,7 +850,7 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
 
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="form-floating">
                       {/* <select
                         className="form-select bg-transparent"
@@ -860,16 +860,28 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         <option value={2}>Destination 2</option>
                         <option value={3}>Destination 3</option>
                       </select> */}
-                      <label htmlFor="select1">Destination</label>
+                      {/* <label htmlFor="select1 "  className="form-select bg-transparent">Destination</label>
                         <input
                         type="text"
                         className="form-control bg-transparent datetimepicker-input"
                         id="Destination"
                         placeholder="Destination"
-                        // data-target="Destination"
+                        data-target="Destination"
                         data-toggle="Destination"
                       />
+                    </div>  */}
+
+                      <div className="col-md-6">
+                    <div className="form-floating">
+                      <input
+                        type="text"
+                        className="form-control bg-transparent"
+                        id="Destination"
+                        placeholder="Destination"
+                      />
+                      <label htmlFor="Destination">Destination</label>
                     </div>
+                  {/* </div>/Users/mp-tas-06/Downloads/Prashar Lake.jpeg */}
                   </div>
                   <div className="col-12">
                     <div className="form-floating">
