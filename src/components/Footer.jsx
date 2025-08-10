@@ -36,7 +36,7 @@ export default function Footer() {
             </p>
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
-              +919888-476-943
+              +919915-243-111
             </p>
             <p className="mb-2">
               <i className="fa fa-envelope me-3" />

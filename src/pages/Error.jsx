@@ -2,8 +2,8 @@ import React from 'react'
 
 function Error() {
   return (
-    <div>
-          <div className="container-fluid bg-primary py-5 mb-5 hero-header">
+    <div className=''>
+          {/* <div className="container-fluid bg-primary py-5 mb-5 hero-header">
     <div className="container py-5">
       <div className="row justify-content-center py-5">
         <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -26,9 +26,9 @@ function Error() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
       {/* 404 Start */}
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-xxl  py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div className="container text-center">
         <div className="row justify-content-center">
           <div className="col-lg-6">

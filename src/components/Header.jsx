@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
   return (
@@ -33,7 +34,7 @@ function Header() {
             </small>
             <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
-              +919888-476-943
+              +919915-243-111
             </small>
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
@@ -52,24 +53,33 @@ function Header() {
             >
               <i className="fab fa-twitter fw-normal" />
             </a> */}
-            <a
-              className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to="https://www.facebook.com/share/1XQdB4ZYry/"
-            >
-              <i className="fab fa-facebook-f fw-normal" />
-            </a>
-            <a
-              className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to="https://wa.me/+919888476943"
-            >
-              <i className="fab fa-whatsapp fw-normal" />
-            </a>
-            <a
-              className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              to="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3"
-            >
-              <i className="fab fa-instagram fw-normal" />
-            </a>
+          <a
+  className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+  href="https://www.facebook.com/share/1XQdB4ZYry/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-facebook-f fw-normal" />
+</a>
+
+<a
+  className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+  href="https://wa.me/+919888476943"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-whatsapp fw-normal" />
+</a>
+
+<a
+  className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+  href="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-instagram fw-normal" />
+</a>
+
             {/* <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
               to=""
@@ -101,18 +111,58 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto py-0">
-            <Link to="/" className="nav-item nav-link">
+            {/* <Link to="/" className="nav-item nav-link">
               Home
-            </Link>
-            <Link to="/About" className="nav-item nav-link">
+            </Link> */}
+                     <ScrollLink
+  to="Home"
+  smooth={true}
+  duration={500}
+  offset={-70} // adjust if you have a fixed navbar
+  className="nav-item nav-link"
+>
+  Home
+</ScrollLink>
+            {/* <Link to="/About" className="nav-item nav-link">
               About
-            </Link>
-            <Link to="/Services" className="nav-item nav-link">
+            </Link> */}
+                                 <ScrollLink
+  to="About"
+  smooth={true}
+  duration={500}
+  offset={-70} // adjust if you have a fixed navbar
+  className="nav-item nav-link"
+>
+  About
+</ScrollLink>
+            {/* <Link to="/Services" className="nav-item nav-link">
          Vehicles Services 
-            </Link>
-            <Link to="/Packages" className="nav-item nav-link">
+            </Link> */}
+
+                                 <ScrollLink
+  to="Vehicles"
+  smooth={true}
+  duration={500}
+  offset={-70} // adjust if you have a fixed navbar
+  className="nav-item nav-link"
+>
+           Vehicles Services 
+</ScrollLink>
+
+            {/* <Link to="/Packages" className="nav-item nav-link">
               Packages
-            </Link>
+            </Link> */}
+
+         <ScrollLink
+  to="Packages"
+  smooth={true}
+  duration={500}
+  offset={-70} // adjust if you have a fixed navbar
+  className="nav-item nav-link"
+>
+  Packages
+</ScrollLink>
+
             <div className="nav-item dropdown">
               {/* <Link
                 to="#"
@@ -139,9 +189,15 @@ function Header() {
                 </Link>
               </div>
             </div>
-            <Link to="/Contact" className="nav-item nav-link">
-              Contact
-            </Link>
+         <ScrollLink
+  to="contact"
+  smooth={true}
+  duration={500}
+  offset={-70} // adjust if you have a fixed navbar
+  className="nav-item nav-link"
+>
+  Contact
+</ScrollLink>
           </div>
           {/* <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
             Register
