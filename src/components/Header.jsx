@@ -34,12 +34,12 @@ function Header() {
             </small>
             <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
-              +919915-243-111
+              +919915-243-111 /  +919888-476-943
             </small>
-             <small className="me-3 text-light">
+             {/* <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
               +919888-476-943
-            </small>
+            </small> */}
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
               urbaniasechalo@gmail.com
