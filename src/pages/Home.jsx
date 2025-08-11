@@ -11,7 +11,7 @@ const packages = [
     location: "Kullu-Manali",
     days: "3N/4D",
     persons: "2 Person",
-    price: "Amazing Manali ",
+    price: "Amazing Kullu Manali",
     rating: 5,
     description:
       "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos",
@@ -33,7 +33,7 @@ const packages = [
     location: "Shimla - Manali - Kasol",
     days: "4N/5D",
     persons: "2 Person",
-    price: "Amazing Kasol",
+    price: "Amazing Shimla – Manali",
     rating: 5,
     description:
       "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos",
@@ -44,7 +44,7 @@ const packages = [
     location: "Jibhi - Jalori Pass - Parashar Lake",
     days: "4N/5D",
     persons: "1 Person",
-    price: "Amazing Parashar Lake",
+    price: "Amazing Jibhi – Jalori Pass",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
@@ -55,7 +55,7 @@ const packages = [
     location: "Shimla - Manali - Kasol",
     days: "5N/6D",
     persons: "2 Person",
-    price: "Amazing Kasol",
+    price: "Amazing Shimla – Manali",
     rating: 5,
     description:
       "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos",
@@ -66,7 +66,7 @@ const packages = [
     location: "Kufri - Narkanda - Jibhi - Kasol      ",
     days: "5N/6D",
     persons: "2 Person",
-    price: "Amazing Narkanda",
+    price: "Amazing Narkanda – Kasol",
     rating: 5,
     description:
       "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos",
@@ -74,10 +74,10 @@ const packages = [
   {
     id: 6,
     image: "assets/img/baralacha.com",
-    location: "Dalhousie - Dharamshala",
+    location: "Manali - Keylong - Trilokinath - Baralacha - Sissu - Manali",
     days: "6N/7D",
     persons: "1 Person",
-    price: "Amazing Baralacha",
+    price: "Amazing Manali – Sissu – Baralachha",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
@@ -89,7 +89,7 @@ const packages = [
     location: "Shimla - Narkanda - Sangla - Kalpa - Sarahan - Shimla",
     days: "6N/7D",
     persons: "1 Person",
-    price: "Amazing Kalpa",
+    price: "Amazing  Kinnaur valley",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
