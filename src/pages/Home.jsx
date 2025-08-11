@@ -833,19 +833,19 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                   </div>
                   <div className="col-md-6">
                     <div
-                      className="form-floating date"
-                      id="date3"
-                      data-target-input="nearest"
+                      className="form-floating"
+                      id="number"
+                      data-target-input="number"
                     >
                       <input
-                        type="text"
-                        className="form-control bg-transparent datetimepicker-input"
-                        id="Date"
-                        placeholder="Date & Time"
+                        type="number"
+                        className="form-control bg-transparent"
+                        id="number"
+                        placeholder="Phone Number"
                         // data-target="#date3"
                         // data-toggle="datetimepicker"
                       />
-                      <label htmlFor="datetime">Date</label>
+                      <label htmlFor="number">Phone Number</label>
                                             {/* <label htmlFor="datetime">Date &amp; Time</label> */}
 
                     </div>
