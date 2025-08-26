@@ -89,7 +89,7 @@ const packages = [
     location: "Shimla - Narkanda - Sangla - Kalpa - Sarahan - Shimla",
     days: "6N/7D",
     persons: "1 Person",
-    price: "Amazing   Kinnaur   valley",
+    price: "Amazing  Shimla - Kinnaur   valley",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
