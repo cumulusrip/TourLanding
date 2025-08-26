@@ -42,7 +42,7 @@ function Header() {
             </small>
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
-              urbaniasechalo@gmail.com
+support@urbaniasechalo.com
             </small>
           </div>
         </div>
