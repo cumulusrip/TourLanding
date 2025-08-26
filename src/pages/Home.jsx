@@ -77,7 +77,7 @@ const packages = [
     location: "Manali - Keylong - Trilokinath - Baralacha - Sissu - Manali",
     days: "6N/7D",
     persons: "1 Person",
-    price: "Amazing Manali – Sissu – Baralachha",
+    price: "Amazing Manali – Baralachha",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
