@@ -89,7 +89,7 @@ const packages = [
     location: "Shimla - Narkanda - Sangla - Kalpa - Sarahan - Shimla",
     days: "6N/7D",
     persons: "1 Person",
-    price: "Amazing  Kinnaur valley",
+    price: "Amazing   Kinnaur   valley",
     rating: 5,
     description:
       "Magna sit amet purus gravida quis blandit turpis cursus in hac habitasse.",
@@ -102,7 +102,7 @@ const packages = [
     location: "Shimla - Manali - Dharamshala - Dalhousie - Amritsar",
     days: "9N/10D",
     persons: "2 Person",
-    price: "Grand Himachal+Amritsar",
+    price: "Grand Himachal + Amritsar",
     rating: 5,
     description:
       "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos",
