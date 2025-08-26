@@ -44,7 +44,7 @@ export default function Footer() {
             </p>
             <p className="mb-2">
               <i className="fa fa-envelope me-3" />
-              urbaniasechalo@gmail.com
+              support@urbaniasechalo.com
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/share/1XQdB4ZYry/">
