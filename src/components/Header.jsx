@@ -38,7 +38,7 @@ function Header() {
             </small> */}
              <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
-              +919888-476-943
+              +919915-243-111
             </small>
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
