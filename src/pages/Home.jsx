@@ -1,8 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 import video from '../assets/video/bg-video1.mp4'
 import { Link as ScrollLink } from "react-scroll";
 
 export default function Home() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    number: "",
+    destination: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+console.log("formndata", formData);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("https://urbaniasechalo.vercel.app/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.json();
+    alert(result.message);
+  };
 
 const packages = [
   {
@@ -807,7 +831,7 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
             </div>
             <div className="col-md-6">
               <h1 className="text-white mb-4">Book A Tour</h1>
-              <form>
+           <form onSubmit={handleSubmit}>
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="form-floating">
@@ -816,6 +840,8 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         className="form-control bg-transparent"
                         id="name"
                         placeholder="Your Name"
+                          value={formData.name}
+                onChange={handleChange}
                       />
                       <label htmlFor="name">Your Name</label>
                     </div>
@@ -827,6 +853,8 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         className="form-control bg-transparent"
                         id="email"
                         placeholder="Your Email"
+                          value={formData.email}
+                onChange={handleChange}
                       />
                       <label htmlFor="email">Your Email</label>
                     </div>
@@ -842,34 +870,15 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         className="form-control bg-transparent"
                         id="number"
                         placeholder="Phone Number"
-                        // data-target="#date3"
-                        // data-toggle="datetimepicker"
+                          value={formData.number}
+                onChange={handleChange}
+                    
                       />
                       <label htmlFor="number">Phone Number</label>
-                                            {/* <label htmlFor="datetime">Date &amp; Time</label> */}
 
                     </div>
                   </div>
-                  {/* <div className="col-md-6">
-                    <div className="form-floating">
-                      {/* <select
-                        className="form-select bg-transparent"
-                        id="select1"
-                      >
-                        <option value={1}>Destination 1</option>
-                        <option value={2}>Destination 2</option>
-                        <option value={3}>Destination 3</option>
-                      </select> */}
-                      {/* <label htmlFor="select1 "  className="form-select bg-transparent">Destination</label>
-                        <input
-                        type="text"
-                        className="form-control bg-transparent datetimepicker-input"
-                        id="Destination"
-                        placeholder="Destination"
-                        data-target="Destination"
-                        data-toggle="Destination"
-                      />
-                    </div>  */}
+           
 
                       <div className="col-md-6">
                     <div className="form-floating">
@@ -878,10 +887,11 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         className="form-control bg-transparent"
                         id="Destination"
                         placeholder="Destination"
+                          value={formData.destination}
+                onChange={handleChange}
                       />
                       <label htmlFor="Destination">Destination</label>
                     </div>
-                  {/* </div>/Users/mp-tas-06/Downloads/Prashar Lake.jpeg */}
                   </div>
                   <div className="col-12">
                     <div className="form-floating">
@@ -890,7 +900,9 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                         placeholder="Special Request"
                         id="message"
                         style={{ height: 100 }}
-                        defaultValue={""}
+             
+                          value={formData.message}
+                onChange={handleChange}
                       />
                       <label htmlFor="message">Special Request</label>
                     </div>
