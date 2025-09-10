@@ -53,7 +53,7 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3">
                 <i className="fab fa-instagram" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919888476943">
+              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919915243111">
                 <i className="fab fa-whatsapp" />
               </a>
               <a className="btn btn-outline-light btn-social" href="http://www.linkedin.com/in/deen-bandhu-gupta-185b13376">
