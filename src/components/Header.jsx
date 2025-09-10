@@ -68,7 +68,7 @@ support@urbaniasechalo.com
 
 <a
   className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-  href="https://wa.me/+919888476943"
+  href="https://wa.me/+919915243111"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -87,7 +87,7 @@ support@urbaniasechalo.com
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
               to="http://www.linkedin.com/in/deen-bandhu-gupta-185b13376"
             >
-              <i className="fab fa-linkedln fw-normal" />
+              <i className="fab fa-linkedin-in fw-normal" />
             </a>
             {/* <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
