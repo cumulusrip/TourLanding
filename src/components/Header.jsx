@@ -83,7 +83,12 @@ support@urbaniasechalo.com
 >
   <i className="fab fa-instagram fw-normal" />
 </a>
-
+<a
+              className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              to="http://www.linkedin.com/in/deen-bandhu-gupta-185b13376"
+            >
+              <i className="fab fa-linkedln fw-normal" />
+            </a>
             {/* <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
               to=""
