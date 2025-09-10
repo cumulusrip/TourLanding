@@ -880,19 +880,26 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                   </div>
            
 
-                      <div className="col-md-6">
-                    <div className="form-floating">
-                      <input
-                        type="text"
-                        className="form-control bg-transparent"
-                        id="destination"
-                        placeholder="destination"
-                          value={formData.destination}
-                onChange={handleChange}
-                      />
-                      <label htmlFor="Destination">Destination</label>
-                    </div>
-                  </div>
+                    <div className="col-md-6">
+  <div className="form-floating">
+    <select
+      className="form-control bg-transparent"
+      id="destination"
+      name="destination"
+      value={formData.destination}
+      onChange={handleChange}
+    >
+      <option value="">Select a Package</option>
+      {packages.map((pkg) => (
+        <option key={pkg.id} value={pkg.price}>
+          {pkg.price}
+        </option>
+      ))}
+    </select>
+    <label htmlFor="destination">Destination</label>
+  </div>
+</div>
+
                   <div className="col-12">
                     <div className="form-floating">
                       <textarea
