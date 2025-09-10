@@ -56,9 +56,9 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="https://wa.me/+919888476943">
                 <i className="fab fa-whatsapp" />
               </a>
-              {/* <a className="btn btn-outline-light btn-social" href="/">
+              <a className="btn btn-outline-light btn-social" href="http://www.linkedin.com/in/deen-bandhu-gupta-185b13376">
                 <i className="fab fa-linkedin-in" />
-              </a> */}
+              </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -122,7 +122,7 @@ export default function Footer() {
               </a>
               , All Right Reserved.
               Designed By{" "}
-              <a className="border-bottom" href="https://github.com/ParasSalunke">
+              <a className="border-bottom" href="https://github.com/sonu3563">
               Urbani se Chalo
               </a>
             </div>
