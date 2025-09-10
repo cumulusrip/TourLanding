@@ -885,8 +885,8 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                       <input
                         type="text"
                         className="form-control bg-transparent"
-                        id="Destination"
-                        placeholder="Destination"
+                        id="destination"
+                        placeholder="destination"
                           value={formData.destination}
                 onChange={handleChange}
                       />
