@@ -646,7 +646,7 @@ className="btn btn-primary py-3 px-5 mt-2"
 
               <div className="d-flex justify-content-center  mb-2">
                 <a
-  href="https://wa.me/+919888476943"
+  href="https://wa.me/+919915243111"
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
                 >
@@ -712,7 +712,7 @@ className="btn btn-primary py-3 px-5 mt-2"
               {/* <p>{pkg.description}</p> */}
               <div className="d-flex justify-content-center mb-2">
                 <a
-  href="https://wa.me/+919888476943"
+  href="https://wa.me/+919915243111"
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
                 >
