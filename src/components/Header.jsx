@@ -36,10 +36,13 @@ function Header() {
               <i className="fa fa-phone-alt me-2" />
               +919915-243-111
             </small> */}
-             <small className="me-3 text-light">
-              <i className="fa fa-phone-alt me-2" />
-              +919915-243-111
-            </small>
+         <small className="me-3 text-light">
+  <i className="fa fa-phone-alt me-2" />
+  <a href="tel:+919915243111" className="text-light text-decoration-none">
+    +91 9915-243-111
+  </a>
+</small>
+
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
 support@urbaniasechalo.com
