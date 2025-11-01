@@ -1,7 +1,19 @@
-import React from "react";
+// import React from "react";
+import React, { useEffect } from "react";
 
 
 const ThankYou = () => {
+
+
+      useEffect(() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/bEwBCLaV6rcbEI3ZqNJB",
+      });
+    }
+  }, []);
+
+
   return (
     <div className="d-flex align-items-center justify-content-center vh-100 bg-light">
       <div className="text-center p-5 rounded shadow bg-white">
