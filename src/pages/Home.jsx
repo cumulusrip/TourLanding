@@ -652,16 +652,34 @@ className="btn btn-primary py-3 px-5 mt-2"
 
 
               <div className="d-flex justify-content-center  mb-2">
-                <a
+                       <a
   href="https://wa.me/+919915243111"
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
+                  onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+        value: 1.0,
+        currency: "INR",
+      });
+    }
+  }}
                 >
                   Whatsapp
                 </a>
                 <a
   href="tel:+919915243111"
                   className="btn btn-sm btn-primary px-3"
+        onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+        value: 1.0,
+        currency: "INR",
+      });
+    }
+  }} 
                   style={{ borderRadius: "0 30px 30px 0" }}
                 >
                   Call Now
@@ -718,17 +736,35 @@ className="btn btn-primary py-3 px-5 mt-2"
               </div>
               {/* <p>{pkg.description}</p> */}
               <div className="d-flex justify-content-center mb-2">
-                <a
+                  <a
   href="https://wa.me/+919915243111"
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
+   onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
+      });
+    }
+    window.open("https://wa.me/919915243111", "_blank");
+  }}
                 >
                   Whatsapp
                 </a>
                 <a
   href="tel:+919915243111"
                   className="btn btn-sm btn-primary px-3"
+                  onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+        value: 1.0,
+        currency: "INR",
+      });
+    }
+  }} 
                   style={{ borderRadius: "0 30px 30px 0" }}
+
                 >
                   Call Now
                 </a>
