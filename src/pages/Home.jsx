@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import video from '../assets/video/bg-video1.mp4'
 import { Link as ScrollLink } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -10,7 +11,7 @@ export default function Home() {
     destination: "",
     message: "",
   });
-
+  const navigate = useNavigate();
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
@@ -25,7 +26,13 @@ console.log("formndata", formData);
     });
 
     const result = await response.json();
-    alert(result.message);
+
+    if (response.ok) {
+    
+      navigate("/Thank-You");
+    } else {
+      alert(result.message || "Something went wrong. Please try again.");
+    }
   };
 
 const packages = [
