@@ -36,7 +36,16 @@ export default function Footer() {
             </p>
         <p className="mb-2">
   <i className="fa fa-phone-alt me-3" />
-  <a href="tel:+919915243111" className="text-light text-decoration-none">
+  <a href="tel:+919915243111"   onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+        value: 1.0,
+        currency: "INR",
+      });
+    }
+  }} 
+  className="text-light text-decoration-none">
     +91 9915-243-111
   </a>
 </p>
@@ -56,7 +65,16 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3">
                 <i className="fab fa-instagram" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919915243111">
+              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919915243111"   
+    onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
+      });
+    }
+    window.open("https://wa.me/919915243111", "_blank");
+  }}
+  >
                 <i className="fab fa-whatsapp" />
               </a>
               <a className="btn btn-outline-light btn-social" href="http://www.linkedin.com/in/deen-bandhu-gupta-185b13376">
