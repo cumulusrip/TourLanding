@@ -34,10 +34,13 @@ export default function Footer() {
               <i className="fa fa-map-marker-alt me-3" />
             Plot No.2 Daria Near Railway Station  Chandigarh
             </p>
-            <p className="mb-2">
-              <i className="fa fa-phone-alt me-3" />
-              +919915-243-111
-            </p>
+        <p className="mb-2">
+  <i className="fa fa-phone-alt me-3" />
+  <a href="tel:+919915243111" className="text-light text-decoration-none">
+    +91 9915-243-111
+  </a>
+</p>
+
 {/*               <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
               +919888-476-943
