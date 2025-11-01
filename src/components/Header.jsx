@@ -38,7 +38,15 @@ function Header() {
             </small> */}
          <small className="me-3 text-light">
   <i className="fa fa-phone-alt me-2" />
-  <a href="tel:+919915243111" className="text-light text-decoration-none">
+  <a href="tel:+919915243111" className="text-light text-decoration-none"   onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+        value: 1.0,
+        currency: "INR",
+      });
+    }
+  }}>
     +91 9915-243-111
   </a>
 </small>
@@ -74,6 +82,14 @@ support@urbaniasechalo.com
   href="https://wa.me/+919915243111"
   target="_blank"
   rel="noopener noreferrer"
+    onClick={() => {
+    if (window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
+      });
+    }
+    window.open("https://wa.me/919915243111", "_blank");
+  }}
 >
   <i className="fab fa-whatsapp fw-normal" />
 </a>
