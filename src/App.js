@@ -12,6 +12,7 @@ import Team from './pages/Team'
 import Testimonial from './pages/Testimonial'
 import Error from './pages/Error'
 import Contact from './pages/Contact'
+import ThankYou from './components/Thankyou'
 
 export default function App() {
   return (
@@ -20,6 +21,8 @@ export default function App() {
         <Routes>
         <Route path='/' element={<Home/>}/>
       <Route path="*" element={<Error />} />
+         <Route path="/Thank-You" element={<ThankYou />} />
+
         {/* <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/packages' element={<Packages/>}/>
