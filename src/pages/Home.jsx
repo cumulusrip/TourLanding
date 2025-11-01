@@ -873,7 +873,7 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
                       data-target-input="number"
                     >
                       <input
-                        type="number"
+                        type="tel"
                         className="form-control bg-transparent"
                         id="number"
                         placeholder="Phone Number"
