@@ -36,7 +36,7 @@ export default function Footer() {
             </p>
         <p className="mb-2">
   <i className="fa fa-phone-alt me-3" />
-  <a href="tel:+919915243111" 
+  <a 
  onClick={(e) => {
       e.preventDefault();
 
@@ -53,7 +53,7 @@ export default function Footer() {
         window.location.href = "tel:+919915243111";
       }, 300); 
     }}
-    
+    href="tel:+919915243111" 
   className="text-light text-decoration-none">
     +91 9915-243-111
   </a>
@@ -74,7 +74,7 @@ export default function Footer() {
               <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/urbaniasechalo?igsh=bTRlNGU5OG9tZTB3">
                 <i className="fab fa-instagram" />
               </a>
-              <a className="btn btn-outline-light btn-social" href="https://wa.me/+919915243111"   
+              <a className="btn btn-outline-light btn-social"   
    onClick={(e) => {
     e.preventDefault();
 
@@ -87,6 +87,7 @@ export default function Footer() {
       window.open("https://wa.me/919915243111", "_blank");
     }, 300);
   }}
+                href="https://wa.me/+919915243111" 
   >
                 <i className="fab fa-whatsapp" />
               </a>
