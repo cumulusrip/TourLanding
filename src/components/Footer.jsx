@@ -36,15 +36,24 @@ export default function Footer() {
             </p>
         <p className="mb-2">
   <i className="fa fa-phone-alt me-3" />
-  <a href="tel:+919915243111"   onClick={() => {
-    if (window.gtag) {
-      window.gtag("event", "conversion", {
-        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
-        value: 1.0,
-        currency: "INR",
-      });
-    }
-  }} 
+  <a href="tel:+919915243111" 
+ onClick={(e) => {
+      e.preventDefault();
+
+      if (window.gtag) {
+        window.gtag("event", "conversion", {
+          send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+          value: 1.0,
+          currency: "INR",
+        });
+      }
+
+
+      setTimeout(() => {
+        window.location.href = "tel:+919915243111";
+      }, 300); 
+    }}
+    
   className="text-light text-decoration-none">
     +91 9915-243-111
   </a>
@@ -66,13 +75,17 @@ export default function Footer() {
                 <i className="fab fa-instagram" />
               </a>
               <a className="btn btn-outline-light btn-social" href="https://wa.me/+919915243111"   
-    onClick={() => {
+   onClick={(e) => {
+    e.preventDefault();
+
     if (window.gtag) {
       window.gtag("event", "conversion", {
         send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
       });
     }
-    window.open("https://wa.me/919915243111", "_blank");
+    setTimeout(() => {
+      window.open("https://wa.me/919915243111", "_blank");
+    }, 300);
   }}
   >
                 <i className="fab fa-whatsapp" />
