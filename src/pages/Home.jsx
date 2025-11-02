@@ -653,34 +653,47 @@ className="btn btn-primary py-3 px-5 mt-2"
 
               <div className="d-flex justify-content-center  mb-2">
                        <a
-  href="https://wa.me/+919915243111"
+
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
-                  onClick={() => {
+   onClick={(e) => {
+    e.preventDefault();
+
     if (window.gtag) {
       window.gtag("event", "conversion", {
-        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
-        value: 1.0,
-        currency: "INR",
+        send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
       });
     }
+    setTimeout(() => {
+      window.open("https://wa.me/919915243111", "_blank");
+    }, 300);
   }}
+
+                           href="https://wa.me/+919915243111"
                 >
                   Whatsapp
                 </a>
                 <a
-  href="tel:+919915243111"
+
                   className="btn btn-sm btn-primary px-3"
-        onClick={() => {
-    if (window.gtag) {
-      window.gtag("event", "conversion", {
-        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
-        value: 1.0,
-        currency: "INR",
-      });
-    }
-  }} 
+ onClick={(e) => {
+      e.preventDefault();
+
+      if (window.gtag) {
+        window.gtag("event", "conversion", {
+          send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+          value: 1.0,
+          currency: "INR",
+        });
+      }
+
+
+      setTimeout(() => {
+        window.location.href = "tel:+919915243111";
+      }, 300); 
+    }}
                   style={{ borderRadius: "0 30px 30px 0" }}
+                    href="tel:+919915243111"
                 >
                   Call Now
                 </a>
@@ -737,33 +750,46 @@ className="btn btn-primary py-3 px-5 mt-2"
               {/* <p>{pkg.description}</p> */}
               <div className="d-flex justify-content-center mb-2">
                   <a
-  href="https://wa.me/+919915243111"
                   className="btn btn-sm btn-primary px-3 border-end"
                   style={{ borderRadius: "30px 0 0 30px" }}
-   onClick={() => {
+   onClick={(e) => {
+    e.preventDefault();
+
     if (window.gtag) {
       window.gtag("event", "conversion", {
         send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
       });
     }
-    window.open("https://wa.me/919915243111", "_blank");
+    setTimeout(() => {
+      window.open("https://wa.me/919915243111", "_blank");
+    }, 300);
   }}
+                      href="https://wa.me/+919915243111"
+
                 >
                   Whatsapp
                 </a>
                 <a
-  href="tel:+919915243111"
                   className="btn btn-sm btn-primary px-3"
-                  onClick={() => {
-    if (window.gtag) {
-      window.gtag("event", "conversion", {
-        send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
-        value: 1.0,
-        currency: "INR",
-      });
-    }
-  }} 
+ onClick={(e) => {
+      e.preventDefault();
+
+      if (window.gtag) {
+        window.gtag("event", "conversion", {
+          send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
+          value: 1.0,
+          currency: "INR",
+        });
+      }
+
+
+      setTimeout(() => {
+        window.location.href = "tel:+919915243111";
+      }, 300); 
+    }}
                   style={{ borderRadius: "0 30px 30px 0" }}
+                    href="tel:+919915243111"
+
 
                 >
                   Call Now
