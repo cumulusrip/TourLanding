@@ -38,7 +38,7 @@ function Header() {
             </small> */}
          <small className="me-3 text-light">
   <i className="fa fa-phone-alt me-2" />
-  <a href="tel:+919915243111" className="text-light text-decoration-none"  
+  <a  className="text-light text-decoration-none"  
 
       onClick={(e) => {
       e.preventDefault();
@@ -56,7 +56,7 @@ function Header() {
         window.location.href = "tel:+919915243111";
       }, 300); 
     }}
-
+href="tel:+919915243111"
     >
     +91 9915-243-111
   </a>
@@ -90,7 +90,6 @@ support@urbaniasechalo.com
 
 <a
   className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-  href="https://wa.me/+919915243111"
   target="_blank"
   rel="noopener noreferrer"
    onClick={(e) => {
@@ -105,6 +104,8 @@ support@urbaniasechalo.com
       window.open("https://wa.me/919915243111", "_blank");
     }, 300);
   }}
+    href="https://wa.me/+919915243111"
+
 >
   <i className="fab fa-whatsapp fw-normal" />
 </a>
