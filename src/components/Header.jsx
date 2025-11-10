@@ -36,13 +36,13 @@ function Header() {
               <i className="fa fa-phone-alt me-2" />
               +919915-243-111
             </small> */}
-         <small className="me-3 text-light">
+  <small className="me-3 text-light">
   <i className="fa fa-phone-alt me-2" />
-  <a  className="text-light text-decoration-none"  
-
-      onClick={(e) => {
-      e.preventDefault();
-
+  <a
+    className="text-light text-decoration-none"
+    href="tel:+919915243111"
+    onClick={(e) => {
+      // fire conversion tracking but don't block default tel: navigation
       if (window.gtag) {
         window.gtag("event", "conversion", {
           send_to: "AW-17620937869/AOVPCMiI5bcbEI3ZqNJB",
@@ -50,14 +50,9 @@ function Header() {
           currency: "INR",
         });
       }
-
-
-      setTimeout(() => {
-        window.location.href = "tel:+919915243111";
-      }, 300); 
+      // allow href to continue naturally
     }}
-href="tel:+919915243111"
-    >
+  >
     +91 9915-243-111
   </a>
 </small>
@@ -90,22 +85,16 @@ support@urbaniasechalo.com
 
 <a
   className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+  href="https://wa.me/919915243111"
   target="_blank"
   rel="noopener noreferrer"
-   onClick={(e) => {
-    e.preventDefault();
-
+  onClick={() => {
     if (window.gtag) {
       window.gtag("event", "conversion", {
         send_to: "AW-17620937869/WBq0CNfi7LcbEI3ZqNJB",
       });
     }
-    setTimeout(() => {
-      window.open("https://wa.me/919915243111", "_blank");
-    }, 300);
   }}
-    href="https://wa.me/+919915243111"
-
 >
   <i className="fab fa-whatsapp fw-normal" />
 </a>
