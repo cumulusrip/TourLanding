@@ -998,6 +998,40 @@ Fill in your details, choose your destination, and let us handle the rest. Becau
         </div>
       </div>
     </div>
+
+      <div className="container mx-auto py-8 px-4">
+  <div className="text-center">
+
+    {/* Label */}
+    <div className="flex items-center justify-center gap-5 mb-2">
+      <span className="w-10 h-[2px] bg-primary"></span>
+      <h5 className="text-primary text-sm font-semibold tracking-wider uppercase">
+        A Unit Of
+      </h5>
+      <span className="w-10 h-[2px] bg-primary"></span>
+    </div>
+
+    {/* Parent Company */}
+    <h1 className="text-2xl font-bold text-black my-3">
+      Bharat Taxi Service
+    </h1>
+
+    {/* Brand Name */}
+    {/* <h2 className="text-3xl font-bold text-[#1E2A39] mb-3">
+      Urbania Se Chalo
+    </h2> */}
+
+    {/* Description */}
+    <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">
+      Urbania Se Chalo operates as a dedicated travel unit under 
+      <span className="font-semibold text-primary"> Bharat Taxi Service</span>, 
+      delivering reliable, safe, and comfortable transportation services 
+      across North India.
+    </p>
+
+  </div>
+</div>
+
     {/* Process Start */}
     {/* Team Start */}
     {/* <div className="container-xxl py-5">
