@@ -19,7 +19,7 @@ console.log("formndata", formData);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://urbaniasechalo.vercel.app/send", {
+    const response = await fetch("https://tourladningformbackend.vercel.app/send", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
