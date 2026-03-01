@@ -13,6 +13,8 @@ import Testimonial from './pages/Testimonial'
 import Error from './pages/Error'
 import Contact from './pages/Contact'
 import ThankYou from './components/Thankyou'
+import Terms from './pages/Terms'
+import Privacy from './pages/Privacy'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
         <Route path='/' element={<Home/>}/>
       <Route path="*" element={<Error />} />
          <Route path="/Thank-You" element={<ThankYou />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
 
         {/* <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>

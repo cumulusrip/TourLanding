@@ -280,7 +280,7 @@ const Vehicle = [
       </div> */}
 <div id="Home" className="container-fluid bg-primary py-5 mb-5 hero-header">
   <video autoPlay loop muted playsInline>
-    <source src={video} type="video/mp4" />
+    <source src="https://forceurbania.co.in/wp-content/themes/force-urbania-v2/assets/images/urbania-video.jpg" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
